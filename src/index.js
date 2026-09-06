@@ -16,7 +16,6 @@ function generatePlaylist(event) {
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   let playlistContainer = document.querySelector("#playlistContainer");
-  playlistContainer.classList.remove("hidden");
   playlistContainer.innerHTML = `<div class = "generating"> ⏳ Generating a jazz playlist inspired by ${userInput.value}</div>`;
 
   console.log("Generating playlist...");
