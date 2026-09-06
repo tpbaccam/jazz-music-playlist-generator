@@ -27,6 +27,7 @@ form {
   border-radius: 10px;
   display: flex;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .instructions {
@@ -49,6 +50,7 @@ form {
   border-radius: 50px;
   padding: 10px 20px;
   line-height: 20px;
+  text-align: center;
 }
 
 .playlist-container {
