@@ -45,6 +45,12 @@ form {
   color: #272044;
 }
 
+.help-text {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
 .generate-button {
   margin: 10px, 10px, 10px, 10px;
   background: blue;
