@@ -13,8 +13,7 @@ function generatePlaylist(event) {
   let prompt =
     "You are a jazz music expert. Please generate a playlist of 5 jazz songs based on the user's input.";
   let context = `Generate a jazz playlist based on the following input: ${prompt}. Please provide a list of 5 song titles that fit the jazz theme with their respective artists. In the list please include a <br /> tag after each song title and artist. `;
-  let apiUrl =
-    "https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}";
+  let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   console.log("generating jazz playlist...");
 
