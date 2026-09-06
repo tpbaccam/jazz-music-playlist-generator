@@ -15,6 +15,11 @@ h1 {
   color: #333;
 }
 
+p {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}
 form {
   padding: 30px;
   background-color: white;
@@ -36,13 +41,14 @@ form {
 
 .generate-button {
   margin-left: 10px;
-  background: blueviolet;
+  background: blue;
   color: white;
   border: none;
   width: 150px;
   font-size: 16px;
   border-radius: 50px;
-  padding: 14px 24px;
+  padding: 10px 20px;
+  line-height: 20px;
 }
 
 .playlist-container {
