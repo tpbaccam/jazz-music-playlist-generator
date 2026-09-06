@@ -1,8 +1,13 @@
 function generatePlaylist(event) {
   event.preventDefault();
 
-  alert("Generating playlist...");
-  // Your playlist generation logic here
+  new Typewriter("#playlistContainer", {
+    strings:
+      "Miles Davis, John Coltrane, Ella Fitzgerald, Duke Ellington, Billie Holiday, Thelonious Monk, Charlie Parker, Louis Armstrong, Chet Baker, Herbie Hancock",
+    autoStart: true,
+    delay: 1,
+    cursor: "",
+  });
 }
 
 let playlistFormElement = document.querySelector("#playlistForm");
