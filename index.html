@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Jazz Music Playlist Generator</title>
@@ -28,7 +29,9 @@
           <br />
           <input type="submit" class="generate-button" />
         </form>
-        <div class="playlist-container" id="playlistContainer"></div>
+        <div class="playlist-container" id="playlistContainer">
+          <div id="playlistResults"></div>
+        </div>
       </main>
     </div>
     <footer>
